@@ -55,7 +55,7 @@ $ php demo_native.php
 ```
 
 ### RingCentral Developer Portal
-To setup a free developer account, click [https://developer/ringcentral.com](here)
+To setup a free developer account, click [here](https://developer/ringcentral.com)
 
 ## RingCentral PHP SDK
 The SDK is available at https://github.com/ringcentral/ringcentral-php
