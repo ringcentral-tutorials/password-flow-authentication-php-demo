@@ -1,9 +1,8 @@
 ### Overview
-RingCentral platform authentication using Password Flow.
+Implement RingCentral platform authentication using Password Flow.
 
 ### RingCentral Platform
 RingCentral Platform is a rich RESTful API platform with more than 60 APIs for business communication includes advanced voice calls, chat messaging, SMS/MMS and Fax.
-
 
 
 ### Clone and Setup the project
@@ -38,8 +37,13 @@ RC_USERNAME=
 RC_PASSWORD=
 RC_EXTENSION=
 ```
+If you don't know how to create a RingCentral app. Click [https://developer.ringcentral.com/library/getting-started.html](here) for instructions.
 
 ### Run the demo
+Set `ENVIRONMENT=sandbox` in the `.env` file to run in the sandbox environment.
+
+Set `ENVIRONMENT=production` in the `.env` file to run in the production environment.
+
 Authenticate and access RingCentral platform using RingCentral PHP SDK.
 ```
 $ php demo_rcsdk.php
