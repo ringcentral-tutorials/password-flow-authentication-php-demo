@@ -23,7 +23,7 @@ $ cp environment/dotenv-production environment/.env-production
 
 ### Create an app
 
-* Create an application at [https://developer.ringcentral.com](RingCentral Developer Portal).
+* Create an application at (https://developer.ringcentral.com)[RingCentral Developer Portal].
 * Select `Server-only (No UI)` for the Platform type.
 * Add the `ReadAccounts` permission for the app.
 * Copy the Client id and Client secret and them to the .env-[environment] file.
