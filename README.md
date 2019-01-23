@@ -26,7 +26,7 @@ $ cp environment/dotenv-production environment/.env-production
 * Create an application at [RingCentral Developer Portal](https://developer.ringcentral.com).
 * Select `Server-only (No UI)` for the Platform type.
 * Add the `ReadAccounts` permission for the app.
-* Copy the Client id and Client secret and them to the ``.env-[environment]`` file.
+* Copy the Client id and Client secret and add them to the `.env-[environment]` file.
 ```
 RC_CLIENT_ID=
 RC_CLIENT_SECRET=
@@ -44,15 +44,11 @@ Set `ENVIRONMENT=sandbox` in the `.env` file to run in the sandbox environment.
 
 Set `ENVIRONMENT=production` in the `.env` file to run in the production environment.
 
-Authenticate and access RingCentral platform using RingCentral PHP SDK.
+Authenticate and call RingCentral APIs using the RingCentral PHP SDK.
 ```
-$ php demo_rcsdk.php
+$ php demo.php
 ```
 
-Authenticate and access RingCentral platform using Curl in PHP.
-```
-$ php demo_native.php
-```
 
 ### RingCentral Developer Portal
 To setup a free developer account, click [here](https://developer/ringcentral.com)

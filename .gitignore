@@ -3,4 +3,5 @@ composer.phar
 # Dependency directories
 /vendor
 *.txt
-.env*
+.env-production
+.env-sandbox
